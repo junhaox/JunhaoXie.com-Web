@@ -7,8 +7,8 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     devServer: {
-        inline: true,
-        port: 8080
+        port: 8080,
+        stats: 'errors-only'
     },
     module: {
         loaders: [

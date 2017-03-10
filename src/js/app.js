@@ -1,10 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var App = React.createClass({
-    render: function() {
-        return <h1>This is a test</h1>
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                This is a test!
+            </div>
+        )
     }
-})
+}
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'));
