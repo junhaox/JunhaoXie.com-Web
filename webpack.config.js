@@ -3,11 +3,12 @@ var path = require('path');
 module.exports = {
     entry: './src/js/app.js',
     output: {
-        filename: './dist/app.min.js'
+        filename: 'app.min.js',
+        path: path.resolve(__dirname, 'dist')
     },
     devServer: {
         inline: true,
-        port: 8000
+        port: 8080
     },
     module: {
         loaders: [
