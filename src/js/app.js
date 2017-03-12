@@ -6,7 +6,7 @@ class TopMenu extends React.Component {
     render() {
         return (
             <div>
-                <Navbar inverse collapseOnSelect>
+                <Navbar collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <a href="#">Home</a>
