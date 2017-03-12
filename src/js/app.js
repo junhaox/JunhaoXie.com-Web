@@ -1,15 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import {Navbar, Nav, NavItem} from "react-bootstrap";
 
-class App extends React.Component {
+class TopMenu extends React.Component {
     render() {
         return (
             <div>
-                <h3>Title</h3>
-                <p>This is a test</p>
+                <Navbar inverse collapseOnSelect>
+                    <Navbar.Header>
+                        <Navbar.Brand>
+                            <a href="#">Home</a>
+                        </Navbar.Brand>
+                        <Navbar.Toggle />
+                    </Navbar.Header>
+                    <Navbar.Collapse>
+                        <Nav>
+                            <NavItem eventKey={1} href="#">Projects</NavItem>
+                            <NavItem eventKey={2} href="#">Educations</NavItem>
+                        </Nav>
+                        <Nav pullRight>
+                            <NavItem eventKey={1} href="#">Contact Me</NavItem>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
             </div>
         )
     }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));

@@ -5,7 +5,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         publicPath: "/dist/",
-        filename: 'app.min.js',
+        filename: "app.min.js",
     },
     devServer: {
         stats: "errors-only",
@@ -16,7 +16,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader'
+                loader: "babel-loader"
             }
         ]
     }
