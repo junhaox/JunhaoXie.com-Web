@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Navbar, Nav, NavItem} from "react-bootstrap";
+import {Navbar, Nav, NavItem, Button} from "react-bootstrap";
 
 class TopMenu extends React.Component {
     render() {
         return (
             <div>
+                <style type="text/css">{`
+                .btn-navbar {
+                    color:red;
+                }
+                `}</style>
                 <Navbar collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
@@ -15,11 +20,10 @@ class TopMenu extends React.Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
-                            <NavItem eventKey={1} href="#">Projects</NavItem>
-                            <NavItem eventKey={2} href="#">Educations</NavItem>
-                        </Nav>
-                        <Nav pullRight>
-                            <NavItem eventKey={1} href="#">Contact Me</NavItem>
+                            <NavItem eventKey={1} href="#resume">Resume</NavItem>
+                            <NavItem eventKey={2} href="#portfolio">Portfolio</NavItem>
+                            <NavItem eventKey={3} href="#blog">Blog</NavItem>
+                            <NavItem eventKey={4} href="#contact">Contact Me</NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
