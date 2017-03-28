@@ -32,4 +32,15 @@ class TopMenu extends React.Component {
     }
 }
 
+class Cover extends React.Component {
+    render() {
+        return (
+            <div>
+                <div id="coverText">Welcome to Junhao's House</div>
+            </div>
+        )
+    }
+}
+
 ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
+ReactDOM.render(<Cover />, document.getElementById("cover"));
