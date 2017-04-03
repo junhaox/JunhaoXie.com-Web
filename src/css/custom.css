@@ -6,16 +6,20 @@
 }
 #coverText {
     color:white;
-    text-align: center;
-    font-size: 300%;
+    text-align:center;
 }
 #aboutMe {
-    background-color: orange;
+    background-color:lightblue;
     padding-bottom:10%;
-    padding-top:10%;
+    padding-top:5%;
 }
 #aboutText {
     color: sienna;
-    text-align: left;
-    font-size: 200%;
+    text-align:left;
+    font-size:150%;
+}
+#portfolio {
+    background-color:lightgray;
+    padding-top:10%;
+    padding-bottom:10%;
 }
