@@ -1,11 +1,21 @@
 #cover {
     background-image:url("/src/img/MinimalCodeWallpaper.png");
     background-size:cover;
-    padding-bottom:10%;
-    padding-top:10%;
+    padding-bottom:15%;
+    padding-top:15%;
 }
 #coverText {
     color:white;
     text-align: center;
     font-size: 300%;
+}
+#aboutMe {
+    background-color: orange;
+    padding-bottom:10%;
+    padding-top:10%;
+}
+#aboutText {
+    color: sienna;
+    text-align: left;
+    font-size: 200%;
 }

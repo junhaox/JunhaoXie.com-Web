@@ -42,5 +42,16 @@ class Cover extends React.Component {
     }
 }
 
+class AboutMe extends React.Component {
+    render() {
+        return (
+            <div>
+                <div id="aboutText"> I am a software developer</div>
+            </div>
+        )
+    }
+}
+
 ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
 ReactDOM.render(<Cover />, document.getElementById("cover"));
+ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
