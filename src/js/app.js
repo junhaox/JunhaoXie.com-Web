@@ -22,7 +22,6 @@ class TopMenu extends React.Component {
                         <Nav>
                             <NavItem eventKey={1} href="#resume">Resume</NavItem>
                             <NavItem eventKey={2} href="#portfolio">Portfolio</NavItem>
-                            <NavItem eventKey={3} href="#blog">Blog</NavItem>
                             <NavItem eventKey={4} href="#contact">Contact Me</NavItem>
                         </Nav>
                     </Navbar.Collapse>
@@ -80,7 +79,18 @@ class Test extends React.Component {
     }
 }
 
+class Contact extends React.Component {
+    render() {
+        return (
+            <div>
+                <div id="contact">Contact me</div> 
+            </div>
+        )
+    }
+}
+
 ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
 ReactDOM.render(<Portfolio />, document.getElementById("portfolio"));
+ReactDOM.render(<Contact />, document.getElementById("contactMe"));
