@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Navbar, Nav, NavItem, Button, Jumbotron, Row, Col, Image, Carousel} from "react-bootstrap";
+import {Navbar, Nav, NavItem, Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl} from "react-bootstrap";
 
 class TopMenu extends React.Component {
     render() {
@@ -100,24 +100,32 @@ class Portfolio extends React.Component {
     }
 }
 
-class Test extends React.Component {
-    render() {
-        return (
-            <div>
-                <Jumbotron>
-                    <h1>Welcome to Junhao's House</h1>
-                    <p>This is my personal website</p>
-                </Jumbotron>
-            </div>
-        )
-    }
-}
-
 class Contact extends React.Component {
     render() {
         return (
-            <div>
-                <div id="contact">Contact me</div> 
+            <div id="contactText">
+                <h3>Contact Me</h3>
+                <Row>
+                    <Col md={4}>
+                        <p><span class="glyphicon glyphicon-map-marker"></span>San Diego, CA</p>
+                        <p><span class="glyphicon glyphicon-phone"></span>Phone: 1 (415) 518-6163</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span>Email: junhaoxie0803@gmail.com</p>
+                    </Col>
+                    <Col md={8}>
+                        <Row>
+                            <Col sm={6}>
+                                <FormGroup>
+                                    <FormControl type="text" placeholder="Name" />
+                                </FormGroup>
+                            </Col>
+                            <Col sm={6}>
+                                <FormGroup>
+                                    <FormControl type="text" placeholder="Email" />
+                                </FormGroup>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
             </div>
         )
     }
@@ -127,4 +135,4 @@ ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
 ReactDOM.render(<Portfolio />, document.getElementById("portfolio"));
-ReactDOM.render(<Contact />, document.getElementById("contactMe"));
+//ReactDOM.render(<Contact />, document.getElementById("contactMe"));
