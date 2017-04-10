@@ -32,21 +32,21 @@ class Cover extends React.Component {
             <div>
                 <Carousel>
                     <Carousel.Item active animtateIn animateOut>
-                        <img alt="First Image" src="src/img/1.jpg"></img>
+                        <img width={2000} alt="First Image" src="src/img/1.jpg"></img>
                         <Carousel.Caption>
                             <h3>First slide</h3>
                             <p>This is the first slide</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img alt="Second Image" src="src/img/2.png"></img>
+                        <img width={2000} alt="Second Image" src="src/img/2.jpg"></img>
                         <Carousel.Caption>
                             <h3>Second slide</h3>
                             <p>This is the second slide</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img alt="Third Image" src="src/img/3.jpg"></img>
+                        <img width={2000} alt="Third Image" src="src/img/3.jpg"></img>
                         <Carousel.Caption>
                             <h3>Third slide</h3>
                             <p>This is the third slide</p>
@@ -69,15 +69,15 @@ class AboutMe extends React.Component {
                 <Row>
                     <Col sm={4}>
                         <p><strong>Programming Languages</strong></p>
-                        <Image bsStyle="image" src="src/img/swift.jpg" circle></Image>
+                        <Image src="src/img/swift.jpg" circle></Image>
                     </Col>
                     <Col sm={4}>
                         <p><strong>Databases</strong></p>
-                        <Image bsStyle="image" src="src/img/html.png" circle></Image>
+                        <Image src="src/img/html.png" circle></Image>
                     </Col>
                     <Col sm={4}>
                         <p><strong>Frameworks</strong></p>
-                        <Image bsStyle="image" src="src/img/html.png" circle></Image>
+                        <Image src="src/img/html.png" circle></Image>
                     </Col>
                 </Row>
             </div>
