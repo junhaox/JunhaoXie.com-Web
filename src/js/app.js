@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Navbar, Nav, NavItem, Button, Jumbotron, Row, Col} from "react-bootstrap";
+import {Navbar, Nav, NavItem, Button, Jumbotron, Row, Col, Image, Carousel} from "react-bootstrap";
 
 class TopMenu extends React.Component {
     render() {
@@ -30,7 +30,29 @@ class Cover extends React.Component {
     render() {
         return (
             <div>
-                <h1 id="coverText">Welcome to Junhao's House</h1>
+                <Carousel>
+                    <Carousel.Item active animtateIn animateOut>
+                        <img alt="First Image" src="src/img/1.jpg"></img>
+                        <Carousel.Caption>
+                            <h3>First slide</h3>
+                            <p>This is the first slide</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img alt="Second Image" src="src/img/2.png"></img>
+                        <Carousel.Caption>
+                            <h3>Second slide</h3>
+                            <p>This is the second slide</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img alt="Third Image" src="src/img/3.jpg"></img>
+                        <Carousel.Caption>
+                            <h3>Third slide</h3>
+                            <p>This is the third slide</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
             </div>
         )
     }
@@ -39,22 +61,23 @@ class Cover extends React.Component {
 class AboutMe extends React.Component {
     render() {
         return (
-            <div id="aboutText" class="container">
+            <div id="aboutText">
                 <h3>Software Engineer</h3>
                 <p><em>Graduating from University of California, San Diego</em></p>
+                <br />
                 <br />
                 <Row>
                     <Col sm={4}>
                         <p><strong>Programming Languages</strong></p>
-                        <img src="src/img/swift.jpg"></img>
+                        <Image bsStyle="image" src="src/img/swift.jpg" circle></Image>
                     </Col>
                     <Col sm={4}>
                         <p><strong>Databases</strong></p>
-                        <img src="src/img/html.png"></img>
+                        <Image bsStyle="image" src="src/img/html.png" circle></Image>
                     </Col>
                     <Col sm={4}>
                         <p><strong>Frameworks</strong></p>
-                        <img src="src/img/html.png"></img>
+                        <Image bsStyle="image" src="src/img/html.png" circle></Image>
                     </Col>
                 </Row>
             </div>
