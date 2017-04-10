@@ -32,7 +32,7 @@ class Cover extends React.Component {
         return (
             <div>
                 <Carousel>
-                    <Carousel.Item active animtateIn animateOut>
+                    <Carousel.Item active>
                         <img width={2000} alt="First Image" src="src/img/1.jpg"></img>
                         <Carousel.Caption>
                             <h3>First slide</h3>
@@ -78,7 +78,7 @@ class AboutMe extends React.Component {
                     </Col>
                     <Col sm={4}>
                         <p><strong>Frameworks</strong></p>
-                        <img id="aboutImg" src="src/img/html.png" circle></img>
+                        <img id="aboutImg" src="src/img/html.png"></img>
                     </Col>
                 </Row>
             </div>
