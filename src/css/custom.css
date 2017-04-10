@@ -57,3 +57,13 @@
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+footer {
+    padding: 2% 2%;
+}
