@@ -6,7 +6,7 @@ class TopMenu extends React.Component {
     render() {
         return (
             <div>
-                <Navbar collapseOnSelect>
+                <Navbar collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <a href="#">Home</a>
@@ -14,11 +14,11 @@ class TopMenu extends React.Component {
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
-                        <Nav>
-                            <NavItem eventKey={1} href="#aboutMe">About Me</NavItem>
-                            <NavItem eventKey={2} href="#ability">Ability</NavItem>
-                            <NavItem eventKey={3} href="#portfolio">Portfolio</NavItem>
-                            <NavItem eventKey={3} href="#contactMe">Contact Me</NavItem>
+                        <Nav pullRight>
+                            <li><a href="#aboutMe">ABOUT</a></li>
+                            <li><a href="#ability">ABILITY</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#contactMe">CONTACT</a></li>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -137,7 +137,7 @@ class Contact extends React.Component {
     }
 }
 
-ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
+//ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
 ReactDOM.render(<Ability />, document.getElementById("ability"));
