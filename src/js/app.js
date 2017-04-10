@@ -1,31 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Navbar, Nav, NavItem, Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl} from "react-bootstrap";
-
-class TopMenu extends React.Component {
-    render() {
-        return (
-            <div>
-                <Navbar collapseOnSelect fixedTop>
-                    <Navbar.Header>
-                        <Navbar.Brand>
-                            <a href="#">Home</a>
-                        </Navbar.Brand>
-                        <Navbar.Toggle />
-                    </Navbar.Header>
-                    <Navbar.Collapse>
-                        <Nav pullRight>
-                            <li><a href="#aboutMe">ABOUT</a></li>
-                            <li><a href="#ability">ABILITY</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contactMe">CONTACT</a></li>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-            </div>
-        )
-    }
-}
+import {Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl} from "react-bootstrap";
 
 class Cover extends React.Component {
     render() {
@@ -106,38 +81,6 @@ class Portfolio extends React.Component {
     }
 }
 
-class Contact extends React.Component {
-    render() {
-        return (
-            <div id="contactText">
-                <h3>Contact Me</h3>
-                <Row>
-                    <Col md={4}>
-                        <p><span class="glyphicon glyphicon-map-marker"></span>San Diego, CA</p>
-                        <p><span class="glyphicon glyphicon-phone"></span>Phone: 1 (415) 518-6163</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span>Email: junhaoxie0803@gmail.com</p>
-                    </Col>
-                    <Col md={8}>
-                        <Row>
-                            <Col sm={6}>
-                                <FormGroup>
-                                    <FormControl type="text" placeholder="Name" />
-                                </FormGroup>
-                            </Col>
-                            <Col sm={6}>
-                                <FormGroup>
-                                    <FormControl type="text" placeholder="Email" />
-                                </FormGroup>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
-            </div>
-        )
-    }
-}
-
-//ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
 ReactDOM.render(<Ability />, document.getElementById("ability"));
