@@ -1,16 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Navbar, Nav, NavItem, Button, Jumbotron} from "react-bootstrap";
+import {Navbar, Nav, NavItem, Button, Jumbotron, Row, Col} from "react-bootstrap";
 
 class TopMenu extends React.Component {
     render() {
         return (
             <div>
-                <style type="text/css">{`
-                .btn-navbar {
-                    color:red;
-                }
-                `}</style>
                 <Navbar collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
@@ -20,9 +15,9 @@ class TopMenu extends React.Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
-                            <NavItem eventKey={1} href="#resume">Resume</NavItem>
+                            <NavItem eventKey={1} href="#aboutMe">About Me</NavItem>
                             <NavItem eventKey={2} href="#portfolio">Portfolio</NavItem>
-                            <NavItem eventKey={4} href="#contact">Contact Me</NavItem>
+                            <NavItem eventKey={3} href="#contactMe">Contact Me</NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -44,8 +39,24 @@ class Cover extends React.Component {
 class AboutMe extends React.Component {
     render() {
         return (
-            <div>
-                <p id="aboutText"> I am a software developer</p>
+            <div id="aboutText" class="container">
+                <h3>Software Engineer</h3>
+                <p><em>Graduating from University of California, San Diego</em></p>
+                <br />
+                <Row>
+                    <Col sm={4}>
+                        <p><strong>Programming Languages</strong></p>
+                        <img src="src/img/swift.jpg"></img>
+                    </Col>
+                    <Col sm={4}>
+                        <p><strong>Databases</strong></p>
+                        <img src="src/img/html.png"></img>
+                    </Col>
+                    <Col sm={4}>
+                        <p><strong>Frameworks</strong></p>
+                        <img src="src/img/html.png"></img>
+                    </Col>
+                </Row>
             </div>
         )
     }
