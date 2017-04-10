@@ -16,7 +16,8 @@ class TopMenu extends React.Component {
                     <Navbar.Collapse>
                         <Nav>
                             <NavItem eventKey={1} href="#aboutMe">About Me</NavItem>
-                            <NavItem eventKey={2} href="#portfolio">Portfolio</NavItem>
+                            <NavItem eventKey={2} href="#ability">Ability</NavItem>
+                            <NavItem eventKey={3} href="#portfolio">Portfolio</NavItem>
                             <NavItem eventKey={3} href="#contactMe">Contact Me</NavItem>
                         </Nav>
                     </Navbar.Collapse>
@@ -69,17 +70,27 @@ class AboutMe extends React.Component {
                 <Row>
                     <Col sm={4}>
                         <p><strong>Programming Languages</strong></p>
-                        <Image src="src/img/swift.jpg" circle></Image>
+                        <img id="aboutImg" src="src/img/swift.jpg"></img>
                     </Col>
                     <Col sm={4}>
                         <p><strong>Databases</strong></p>
-                        <Image src="src/img/html.png" circle></Image>
+                        <img id="aboutImg" src="src/img/html.png"></img>
                     </Col>
                     <Col sm={4}>
                         <p><strong>Frameworks</strong></p>
-                        <Image src="src/img/html.png" circle></Image>
+                        <img id="aboutImg" src="src/img/html.png" circle></img>
                     </Col>
                 </Row>
+            </div>
+        )
+    }
+}
+
+class Ability extends React.Component {
+    render() {
+        return (
+            <div>
+                
             </div>
         )
     }
@@ -89,12 +100,7 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div>
-                <div id="portfolio1">Portfolio1</div>
-                <div id="portfolio2">Portfolio2</div>
-                <div id="portfolio3">Portfolio3</div>
-                <div id="portfolio4">Portfolio4</div>
-                <div id="portfolio5">Portfolio5</div>
-                <div id="portfolio6">Portfolio6</div>
+                
             </div>
         )
     }
@@ -134,5 +140,5 @@ class Contact extends React.Component {
 ReactDOM.render(<TopMenu />, document.getElementById("topmenu"));
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
+ReactDOM.render(<Ability />, document.getElementById("ability"));
 ReactDOM.render(<Portfolio />, document.getElementById("portfolio"));
-//ReactDOM.render(<Contact />, document.getElementById("contactMe"));
