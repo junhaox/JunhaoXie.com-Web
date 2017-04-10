@@ -1,19 +1,20 @@
 #aboutMe {
-    background-color:whitesmoke;
+    background-color:#fff;
     padding-bottom:10%;
     padding-top:5%;
 }
 #aboutText{
-    color: sienna;
+    color: lightslategrey;
     text-align:center;
     font-size:150%;
 }
 #portfolio {
-    background-color:lightsteelblue;
+    background-color:#2d2d30;
     padding-top:10%;
     padding-bottom:10%;
 }
 
 #contactMe {
+    background-color:#fff;
     padding: 5% 5%;
 }
