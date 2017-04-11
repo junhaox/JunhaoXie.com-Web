@@ -37,23 +37,14 @@ class Cover extends React.Component {
 class AboutMe extends React.Component {
     render() {
         return (
-            <div id="aboutText">
-                <h3>Software Engineer</h3>
-                <p><em>Graduating from University of California, San Diego</em></p>
-                <br />
-                <br />
+            <div>
                 <Row>
-                    <Col sm={4}>
-                        <p><strong>Programming Languages</strong></p>
-                        <img id="aboutImg" src="src/img/swift.jpg"></img>
+                    <Col sm={5}>
+                        <img src="src/img/aboutMe.jpg"></img>
                     </Col>
-                    <Col sm={4}>
-                        <p><strong>Databases</strong></p>
-                        <img id="aboutImg" src="src/img/html.png"></img>
-                    </Col>
-                    <Col sm={4}>
-                        <p><strong>Frameworks</strong></p>
-                        <img id="aboutImg" src="src/img/html.png"></img>
+                    <Col sm={7}>
+                        <h3>About Me</h3>
+                        <p>I am a graduating student from UCSD</p>
                     </Col>
                 </Row>
             </div>
@@ -65,7 +56,20 @@ class Ability extends React.Component {
     render() {
         return (
             <div>
-                
+                <h3>Abilities and Skills</h3>
+                <p><strong>Programming Languages</strong></p>
+                <p>Java</p>
+                <p>C/C++</p>
+                <Row>
+                    <Col sm={6}>
+                        <p><strong>Databases</strong></p>
+                        <img src="src/img/html.png"></img>
+                    </Col>
+                    <Col sm={6}>
+                        <p><strong>Frameworks</strong></p>
+                        <img src="src/img/html.png"></img>
+                    </Col>
+                </Row>
             </div>
         )
     }
