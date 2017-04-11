@@ -32,6 +32,12 @@
     padding-top:5%;
     font-size:110%;
 }
+#portfolio img {
+    border: 10px solid transparent;
+}
+#portfolio img:hover {
+    border-color: #f1f1f1;
+}
 #contactMe {
     background-color:#f6f6f6;
     padding: 5% 5%;

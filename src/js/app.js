@@ -79,19 +79,19 @@ class Portfolio extends React.Component {
                 <Row>
                     <Col sm={4}>
                         <div class="thumbnail">
-                            <img src="src/img/html.png"></img>
+                            <a href="https://github.com/junhaox/JunhaoXie.com-Web/" target="_blank"><img src="src/img/html.png"></img></a>
                             <p><strong>JunhaoXie.com</strong></p>
                         </div>
                     </Col>
                     <Col sm={4}>
                         <div class="thumbnail">
-                            <img src="src/img/html.png"></img>
+                            <a href="http://watthot.com/" target="_blank"><img src="src/img/html.png"></img></a>
                             <p><strong>WattHot.com</strong></p>
                         </div>
                     </Col>
                     <Col sm={4}>
                         <div class="thumbnail">
-                            <img src="src/img/html.png"></img>
+                            <a href="https://github.com/junhaox/MyConverter-iOS/" target="_blank"><img src="src/img/html.png"></img></a>
                             <p><strong>MyConverter</strong></p>
                         </div>
                     </Col>
