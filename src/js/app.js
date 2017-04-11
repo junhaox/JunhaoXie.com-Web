@@ -80,20 +80,56 @@ class Portfolio extends React.Component {
                 <Row>
                     <Col sm={4}>
                         <div class="thumbnail">
-                            <a href="https://github.com/junhaox/JunhaoXie.com-Web/" target="_blank"><img src="src/img/html.png"></img></a>
+                            <a href="https://github.com/junhaox/JunhaoXie.com-Web/" target="_blank"><img src="src/img/junhaoxie.png"></img></a>
                             <p><strong>JunhaoXie.com</strong></p>
                         </div>
                     </Col>
                     <Col sm={4}>
                         <div class="thumbnail">
-                            <a href="http://watthot.com/" target="_blank"><img src="src/img/html.png"></img></a>
+                            <a href="http://watthot.com/" target="_blank"><img src="src/img/watthot.png"></img></a>
                             <p><strong>WattHot.com</strong></p>
                         </div>
                     </Col>
                     <Col sm={4}>
                         <div class="thumbnail">
-                            <a href="https://github.com/junhaox/MyConverter-iOS/" target="_blank"><img src="src/img/html.png"></img></a>
+                            <a href="https://github.com/junhaox/OnlineTrading-Web/" target="_blank"><img src="src/img/onlinetrading.jpg"></img></a>
+                            <p><strong>OnlineTrading</strong></p>
+                        </div>
+                    </Col>
+                </Row>
+                <br />
+                <Row>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <a href="https://github.com/junhaox/MyConverter-iOS/" target="_blank"><img src="src/img/myconverter.png"></img></a>
                             <p><strong>MyConverter</strong></p>
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <a href="https://github.com/junhaox/SpecApp-iOS/" target="_blank"><img src="src/img/specapp.png"></img></a>
+                            <p><strong>SpecApp</strong></p>
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <a href="https://github.com/junhaox/EarthBender-VR/" target="_blank"><img src="src/img/earthbender.png"></img></a>
+                            <p><strong>EarthBender</strong></p>
+                        </div>
+                    </Col>
+                </Row>
+                <br />
+                <Row>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <a href="https://github.com/junhaox/Pirates-ComputerGraphics/" target="_blank"><img src="src/img/pirates.png"></img></a>
+                            <p><strong>Pirates</strong></p>
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <a href="https://github.com/junhaox/MyBookstore-Android/" target="_blank"><img src="src/img/mybookstore.png"></img></a>
+                            <p><strong>MyBookstore</strong></p>
                         </div>
                     </Col>
                 </Row>
