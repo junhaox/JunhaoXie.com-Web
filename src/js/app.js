@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl, Thumbnail} from "react-bootstrap";
+import {Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl, Thumbnail, ProgressBar} from "react-bootstrap";
 
 class Cover extends React.Component {
     render() {
