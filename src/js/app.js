@@ -55,8 +55,10 @@ class Ability extends React.Component {
             <div>
                 <h2>Abilities and Skills</h2>
                 <p><strong>Programming Languages</strong></p>
-                <p>Java</p>
-                <p>C/C++</p>
+                <Col>
+                    <Row>Java: &#9733; &#9733; &#9733; &#9733;</Row>
+                    <Row>C++: &#9733; &#9733; &#9733;</Row>
+                </Col>
             </div>
         )
     }
