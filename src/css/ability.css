@@ -1,0 +1,29 @@
+#myProgress {
+    width: 100%;
+    background-color: #2d2d30;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:3%;
+}
+#java, #html, #c, #css, #javascript {
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    color: #2d2d30;
+}
+#java {
+    width:85%;
+}
+#c {
+    width:70%;
+}
+#html {
+    width:60%;
+}
+#css {
+    width:60%;
+}
+#javascript {
+    width:60%;
+}
