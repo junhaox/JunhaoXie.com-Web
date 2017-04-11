@@ -10,19 +10,19 @@ class Cover extends React.Component {
                     <Carousel.Item active>
                         <img width={2000} alt="First Image" src="src/img/cover1.png"></img>
                         <Carousel.Caption>
-                            <h3>Welcome to Junhao's Website</h3>
+                            <h2>Welcome to Junhao's Website</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img width={2000} alt="Second Image" src="src/img/cover2.png"></img>
                         <Carousel.Caption>
-                            <h3>Welcome to Junhao's Website</h3>
+                            <h2>Welcome to Junhao's Website</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img width={2000} alt="Third Image" src="src/img/cover3.jpeg"></img>
                         <Carousel.Caption>
-                            <h3>Welcome to Junhao's Website</h3>
+                            <h2>Welcome to Junhao's Website</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -40,8 +40,8 @@ class AboutMe extends React.Component {
                         <img src="src/img/aboutMe.jpg"></img>
                     </Col>
                     <Col sm={7}>
-                        <h3>About Me</h3>
-                        <p>I am a graduating student from UCSD</p>
+                        <h2>About Me</h2>
+                        <p>I am Junhao Xie, a graduating Computer Science student from University of California, San Diego. I had an internship last summer at SolFox in Berkley, which was to developed a web application to calculate users' periodic electric rates based on their usage. I have also developed a couple iOS apps, and one of them allows users to make unit and currency conversion with real-time exchange rates. Overall I am passionate about and experienced in web and mobile development.</p>
                     </Col>
                 </Row>
             </div>
@@ -53,7 +53,7 @@ class Ability extends React.Component {
     render() {
         return (
             <div>
-                <h3>Abilities and Skills</h3>
+                <h2>Abilities and Skills</h2>
                 <p><strong>Programming Languages</strong></p>
                 <p>Java</p>
                 <p>C/C++</p>
@@ -76,7 +76,7 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div id="portfolioText">
-                <h3>Portfolio</h3>
+                <h2>Portfolio</h2>
                 <Row>
                     <Col sm={4}>
                         <div class="thumbnail">
