@@ -81,6 +81,13 @@ class Ability extends React.Component {
                             <div id="javascript">JavaScript</div>
                         </div>
                     </Row>
+                    <Row>
+                        <div class="SkillBar">
+                            <div id="Skill-HTML"> <span class="Skill-Area">HTML</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3sfadeIn fadeIn-3s fadeIn-Delay-3s">100%</span> </div>
+                        </div>
+                    </Row>
+                    <Row>
+                    </Row>
                 </Col>
             </div>
         )
@@ -155,5 +162,5 @@ class Portfolio extends React.Component {
 
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
-ReactDOM.render(<Ability />, document.getElementById("ability"));
+//ReactDOM.render(<Ability />, document.getElementById("ability"));
 ReactDOM.render(<Portfolio />, document.getElementById("portfolio"));
