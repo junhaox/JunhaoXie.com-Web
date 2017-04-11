@@ -57,16 +57,6 @@ class Ability extends React.Component {
                 <p><strong>Programming Languages</strong></p>
                 <p>Java</p>
                 <p>C/C++</p>
-                <Row>
-                    <Col sm={6}>
-                        <p><strong>Databases</strong></p>
-                        <img src="src/img/html.png"></img>
-                    </Col>
-                    <Col sm={6}>
-                        <p><strong>Frameworks</strong></p>
-                        <img src="src/img/html.png"></img>
-                    </Col>
-                </Row>
             </div>
         )
     }
