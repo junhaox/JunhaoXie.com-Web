@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl} from "react-bootstrap";
+import {Button, Jumbotron, Row, Col, Image, Carousel, FormGroup, FormControl, Thumbnail} from "react-bootstrap";
 
 class Cover extends React.Component {
     render() {
@@ -74,8 +74,28 @@ class Ability extends React.Component {
 class Portfolio extends React.Component {
     render() {
         return (
-            <div>
-                
+            <div id="portfolioText">
+                <h3>Portfolio</h3>
+                <Row>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <img src="src/img/html.png"></img>
+                            <p><strong>JunhaoXie.com</strong></p>
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <img src="src/img/html.png"></img>
+                            <p><strong>WattHot.com</strong></p>
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div class="thumbnail">
+                            <img src="src/img/html.png"></img>
+                            <p><strong>MyConverter</strong></p>
+                        </div>
+                    </Col>
+                </Row>
             </div>
         )
     }
