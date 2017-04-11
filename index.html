@@ -87,18 +87,9 @@
             </a>
             <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p> 
         </footer>
-
-        <!-- Google Map API -->
-        <script>
-            function myMap() {
-                var myCenter = new google.maps.LatLng(32.8632119,-117.2127723);
-                var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-                var marker = new google.maps.Marker({position:myCenter});
-                marker.setMap(map);
-            }
-        </script>
+        
         <script src="dist/app.min.js"></script>
+        <script src="src/js/api.js"></script>
         <script src="src/js/scroll.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXYjOOH0N0mfzsAbG9wRt3AwxUpukvpg4&callback=myMap"></script>
     </body>
