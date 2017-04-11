@@ -8,24 +8,21 @@ class Cover extends React.Component {
             <div>
                 <Carousel>
                     <Carousel.Item active>
-                        <img width={2000} alt="First Image" src="src/img/1.jpg"></img>
+                        <img width={2000} alt="First Image" src="src/img/cover1.png"></img>
                         <Carousel.Caption>
-                            <h3>First slide</h3>
-                            <p>This is the first slide</p>
+                            <h3>Welcome to Junhao's Website</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={2000} alt="Second Image" src="src/img/2.jpg"></img>
+                        <img width={2000} alt="Second Image" src="src/img/cover2.png"></img>
                         <Carousel.Caption>
-                            <h3>Second slide</h3>
-                            <p>This is the second slide</p>
+                            <h3>Welcome to Junhao's Website</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={2000} alt="Third Image" src="src/img/3.jpg"></img>
+                        <img width={2000} alt="Third Image" src="src/img/cover3.jpeg"></img>
                         <Carousel.Caption>
-                            <h3>Third slide</h3>
-                            <p>This is the third slide</p>
+                            <h3>Welcome to Junhao's Website</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
