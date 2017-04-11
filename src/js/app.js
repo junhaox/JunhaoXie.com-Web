@@ -49,51 +49,6 @@ class AboutMe extends React.Component {
     }
 }
 
-class Ability extends React.Component {
-    render() {
-        return (
-            <div>
-                <h2>Abilities and Skills</h2>
-                <p><strong>Programming Languages</strong></p>
-                <Col>
-                    <Row>
-                        <div id="myProgress">
-                            <div id="java">Java</div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div id="myProgress">
-                            <div id="c">C/C++</div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div id="myProgress">
-                            <div id="html">HTML</div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div id="myProgress">
-                            <div id="css">CSS</div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div id="myProgress">
-                            <div id="javascript">JavaScript</div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div class="SkillBar">
-                            <div id="Skill-HTML"> <span class="Skill-Area">HTML</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3sfadeIn fadeIn-3s fadeIn-Delay-3s">100%</span> </div>
-                        </div>
-                    </Row>
-                    <Row>
-                    </Row>
-                </Col>
-            </div>
-        )
-    }
-}
-
 class Portfolio extends React.Component {
     render() {
         return (
@@ -162,5 +117,4 @@ class Portfolio extends React.Component {
 
 ReactDOM.render(<Cover />, document.getElementById("cover"));
 ReactDOM.render(<AboutMe />, document.getElementById("aboutMe"));
-//ReactDOM.render(<Ability />, document.getElementById("ability"));
 ReactDOM.render(<Portfolio />, document.getElementById("portfolio"));
