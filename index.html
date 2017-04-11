@@ -54,26 +54,28 @@
             <br />
             <div class="row test">
                 <div class="col-md-4">
-                <p><span class="glyphicon glyphicon-map-marker"></span>&emsp;San Diego, CA 94116</p>
-                <p><span class="glyphicon glyphicon-phone"></span>&emsp;1 (415) 518-6163</p>
-                <p><span class="glyphicon glyphicon-envelope"></span>&emsp;junhaoxie0803@gmail.com</p> 
+                    <p><span class="glyphicon glyphicon-map-marker"></span>&emsp;San Diego, CA 94116</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>&emsp;1 (415) 518-6163</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>&emsp;junhaoxie0803@gmail.com</p> 
                 </div>
                 <div class="col-md-8">
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                    </div>
-                    <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                    </div>
-                </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-                <br />
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                    <button class="btn pull-right" type="submit">Send</button>
-                    </div>
-                </div> 
+                    <form name="form" class="contact" method="post" action="src/php/form.php">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                            </div>
+                        </div>
+                        <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="5"></textarea>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <button class="btn pull-right" name="submit" type="submit" value="Submit">Send</button>
+                            </div>
+                        </div>
+                    </form> 
                 </div>
             </div>
         </div>
